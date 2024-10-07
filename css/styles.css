@@ -1,0 +1,176 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .counter-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #counter-value {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+   /* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .counter-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #counter-value {
+    font-size: 64px;
+    margin: 20px 0;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .button-container button, 
+  .limit-container input {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .button-container button:hover, 
+  .limit-container input:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  .limit-container {
+    margin-top: 20px;
+  }
+  
+  input[type=number] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+  }
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .counter-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #counter-value {
+    font-size: 64px;
+    margin: 20px 0;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .button-container button, 
+  .limit-container input {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .button-container button:hover, 
+  .limit-container input:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  .limit-container {
+    margin-top: 20px;
+  }
+  
+  input[type=number] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+  }
+  
+  #mode {
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  #error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .log-container {
+    margin-top: 20px;
+  }
+  
+  .log-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
